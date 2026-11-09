@@ -1,0 +1,41 @@
+{
+  "schema_version": 2,
+  "project_id": "REQUIRED_PROJECT_ID",
+  "workspace": "REQUIRED_WORKSPACE",
+  "revision": 0,
+  "expected_hashes": {},
+  "pending_operations": [],
+  "authorization_ref": "REQUIRED_AUTHORIZATION_REFERENCE",
+  "tasks": [],
+  "artifacts": [],
+  "evidence_refs": [],
+  "updated_at": "REQUIRED_OBSERVED_TIMESTAMP",
+  "state": {
+    "schema_version": 2,
+    "revision": 0,
+    "project_id": "REQUIRED_PROJECT_ID",
+    "workspace": "REQUIRED_WORKSPACE",
+    "requirements": [],
+    "tasks": [],
+    "artifacts": [],
+    "evidence": [],
+    "defects": [],
+    "decisions": [],
+    "releases": [],
+    "incidents": [],
+    "handoffs": [],
+    "pending_operations": [],
+    "updated_at": "REQUIRED_OBSERVED_TIMESTAMP",
+    "events": [],
+    "role_reads": [],
+    "candidate": {
+      "candidate_id": "unprepared",
+      "manifest": {},
+      "integration_evidence_refs": []
+    },
+    "evidence_policy_version": 2
+  },
+  "milestone": "active",
+  "last_confirmed_action": null,
+  "next_preconditions": []
+}

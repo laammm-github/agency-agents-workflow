@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "evidence_id": "REQUIRED",
+  "tool": "REQUIRED",
+  "kind": "read",
+  "exit_code": null,
+  "candidate": "REQUIRED",
+  "outcome": "UNKNOWN",
+  "artifact_ref": "REQUIRED",
+  "timestamp": "REQUIRED",
+  "task_id": "REQUIRED",
+  "target_scope": "REQUIRED",
+  "operation": "REQUIRED",
+  "mutates": false,
+  "summary": "REQUIRED",
+  "project_id": "REQUIRED",
+  "revision": 0,
+  "updated_at": "REQUIRED",
+  "acceptance_ids": [
+    "REQUIRED"
+  ],
+  "supersedes": []
+}

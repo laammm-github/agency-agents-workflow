@@ -1,0 +1,182 @@
+[
+  {
+    "corpus_id": "agents-orchestrator",
+    "codex_slug": "agents-orchestrator",
+    "name": "Agents Orchestrator",
+    "description": "Autonomous pipeline manager that orchestrates the entire development workflow. You are the leader of this process.",
+    "source_path": "specialized/agents-orchestrator.md",
+    "source_commit": "b37b5bb33b78f2c1d6567d98e25ca818e3259219",
+    "content_sha256": "3f900ee286eba5a809388ecc22ad860c4a3ef9ed7ff25488e80eac18f3a0f317",
+    "path": "roles/agents-orchestrator.md"
+  },
+  {
+    "corpus_id": "engineering-codebase-onboarding-engineer",
+    "codex_slug": "codebase-onboarding-engineer",
+    "name": "Codebase Onboarding Engineer",
+    "description": "Expert developer onboarding specialist who helps new engineers understand unfamiliar codebases fast by reading source code, tracing code paths, and stating only facts grounded in the code.",
+    "source_path": "engineering/engineering-codebase-onboarding-engineer.md",
+    "source_commit": "b37b5bb33b78f2c1d6567d98e25ca818e3259219",
+    "content_sha256": "07aa548b45887c3ad768efad5fdbf6e57bea639df4f1b74c7e383142f454e2a1",
+    "path": "roles/engineering-codebase-onboarding-engineer.md"
+  },
+  {
+    "corpus_id": "product-manager",
+    "codex_slug": "product-manager",
+    "name": "Product Manager",
+    "description": "Holistic product leader who owns the full product lifecycle — from discovery and strategy through roadmap, stakeholder alignment, go-to-market, and outcome measurement. Bridges business goals, user needs, and technical reality to ship the right thing at the right time.",
+    "source_path": "product/product-manager.md",
+    "source_commit": "b37b5bb33b78f2c1d6567d98e25ca818e3259219",
+    "content_sha256": "4a3fe4661e72e5173877bcba7c362392181774b20efc27ac1789171e98676c9d",
+    "path": "roles/product-manager.md"
+  },
+  {
+    "corpus_id": "project-manager-senior",
+    "codex_slug": "senior-project-manager",
+    "name": "Senior Project Manager",
+    "description": "Converts specs to tasks and remembers previous projects. Focused on realistic scope, no background processes, exact spec requirements",
+    "source_path": "project-management/project-manager-senior.md",
+    "source_commit": "b37b5bb33b78f2c1d6567d98e25ca818e3259219",
+    "content_sha256": "70fb27cab174c97375293311211d5563c5ac257fba274450d1ca9c05b540ef2d",
+    "path": "roles/project-manager-senior.md"
+  },
+  {
+    "corpus_id": "design-ux-researcher",
+    "codex_slug": "ux-researcher",
+    "name": "UX Researcher",
+    "description": "Expert user experience researcher specializing in user behavior analysis, usability testing, and data-driven design insights. Provides actionable research findings that improve product usability and user satisfaction",
+    "source_path": "design/design-ux-researcher.md",
+    "source_commit": "b37b5bb33b78f2c1d6567d98e25ca818e3259219",
+    "content_sha256": "25f59c4333df2d0f1170ff7a1b11ea8415fd3d0ef80c3e0985209aeb4018680f",
+    "path": "roles/design-ux-researcher.md"
+  },
+  {
+    "corpus_id": "design-ui-designer",
+    "codex_slug": "ui-designer",
+    "name": "UI Designer",
+    "description": "Expert UI designer specializing in visual design systems, component libraries, and pixel-perfect interface creation. Creates beautiful, consistent, accessible user interfaces that enhance UX and reflect brand identity",
+    "source_path": "design/design-ui-designer.md",
+    "source_commit": "b37b5bb33b78f2c1d6567d98e25ca818e3259219",
+    "content_sha256": "4dc51255ffcb47e2bf4289a7d49a7cc224238af759f9e6e3c56771c698575d6d",
+    "path": "roles/design-ui-designer.md"
+  },
+  {
+    "corpus_id": "engineering-software-architect",
+    "codex_slug": "software-architect",
+    "name": "Software Architect",
+    "description": "Expert software architect specializing in system design, domain-driven design, architectural patterns, and technical decision-making for scalable, maintainable systems.",
+    "source_path": "engineering/engineering-software-architect.md",
+    "source_commit": "b37b5bb33b78f2c1d6567d98e25ca818e3259219",
+    "content_sha256": "b85121691776147bacde26673e68fbbacd6a7f0816d1ca8e203c264d25ce1d30",
+    "path": "roles/engineering-software-architect.md"
+  },
+  {
+    "corpus_id": "engineering-backend-architect",
+    "codex_slug": "backend-architect",
+    "name": "Backend Architect",
+    "description": "Senior backend architect specializing in scalable system design, database architecture, API development, and cloud infrastructure. Builds robust, secure, performant server-side applications and microservices",
+    "source_path": "engineering/engineering-backend-architect.md",
+    "source_commit": "b37b5bb33b78f2c1d6567d98e25ca818e3259219",
+    "content_sha256": "45d94306c8f0f4c51efb76066008297fa4e87ce5b69f509cfede224084b74dfb",
+    "path": "roles/engineering-backend-architect.md"
+  },
+  {
+    "corpus_id": "engineering-frontend-developer",
+    "codex_slug": "frontend-developer",
+    "name": "Frontend Developer",
+    "description": "Expert frontend developer specializing in modern web technologies, React/Vue/Angular frameworks, UI implementation, and performance optimization",
+    "source_path": "engineering/engineering-frontend-developer.md",
+    "source_commit": "b37b5bb33b78f2c1d6567d98e25ca818e3259219",
+    "content_sha256": "71eeb60cbeedd94b41b2e5852d8986c909e8d150c324b4bb99e3b184ae202094",
+    "path": "roles/engineering-frontend-developer.md"
+  },
+  {
+    "corpus_id": "engineering-database-optimizer",
+    "codex_slug": "database-optimizer",
+    "name": "Database Optimizer",
+    "description": "Expert database specialist focusing on schema design, query optimization, indexing strategies, and performance tuning for PostgreSQL, MySQL, and modern databases like Supabase and PlanetScale.",
+    "source_path": "engineering/engineering-database-optimizer.md",
+    "source_commit": "b37b5bb33b78f2c1d6567d98e25ca818e3259219",
+    "content_sha256": "6d773003e3b9251068ab537be94d6827c118201e0e17c11d789cb29dc245bf99",
+    "path": "roles/engineering-database-optimizer.md"
+  },
+  {
+    "corpus_id": "testing-test-automation-engineer",
+    "codex_slug": "test-automation-engineer",
+    "name": "Test Automation Engineer",
+    "description": "Expert end-to-end test automation engineer for Playwright and Cypress — resilient selectors, flake elimination, isolated test data, CI parallelization, and trace-driven failure debugging.",
+    "source_path": "testing/testing-test-automation-engineer.md",
+    "source_commit": "b37b5bb33b78f2c1d6567d98e25ca818e3259219",
+    "content_sha256": "4299d038e88387546d645ccbe767b1dfdb7de10da55eba1ab103149972cd2b9b",
+    "path": "roles/testing-test-automation-engineer.md"
+  },
+  {
+    "corpus_id": "testing-api-tester",
+    "codex_slug": "api-tester",
+    "name": "API Tester",
+    "description": "Expert API testing specialist focused on comprehensive API validation, performance testing, and quality assurance across all systems and third-party integrations",
+    "source_path": "testing/testing-api-tester.md",
+    "source_commit": "b37b5bb33b78f2c1d6567d98e25ca818e3259219",
+    "content_sha256": "c9e0f993e32242e564900bc7fbf7eb994d18295a92c499762459a15bbec59cb3",
+    "path": "roles/testing-api-tester.md"
+  },
+  {
+    "corpus_id": "testing-reality-checker",
+    "codex_slug": "reality-checker",
+    "name": "Reality Checker",
+    "description": "Stops fantasy approvals, evidence-based certification - Default to \"NEEDS WORK\", requires overwhelming proof for production readiness",
+    "source_path": "testing/testing-reality-checker.md",
+    "source_commit": "b37b5bb33b78f2c1d6567d98e25ca818e3259219",
+    "content_sha256": "6d32fcdb114233e13902ec6372d50293b120e85d490b5e81d372c29808f988a1",
+    "path": "roles/testing-reality-checker.md"
+  },
+  {
+    "corpus_id": "engineering-code-reviewer",
+    "codex_slug": "code-reviewer",
+    "name": "Code Reviewer",
+    "description": "Expert code reviewer who provides constructive, actionable feedback focused on correctness, maintainability, security, and performance — not style preferences.",
+    "source_path": "engineering/engineering-code-reviewer.md",
+    "source_commit": "b37b5bb33b78f2c1d6567d98e25ca818e3259219",
+    "content_sha256": "7509fcc3ea1dda46511b2801996305bf3d4a125576f9655ff0b63df25602f446",
+    "path": "roles/engineering-code-reviewer.md"
+  },
+  {
+    "corpus_id": "security-appsec-engineer",
+    "codex_slug": "application-security-engineer",
+    "name": "Application Security Engineer",
+    "description": "AppSec specialist who secures the software development lifecycle through threat modeling, secure code review, SAST/DAST integration, and developer security education that makes secure code the default.",
+    "source_path": "security/security-appsec-engineer.md",
+    "source_commit": "b37b5bb33b78f2c1d6567d98e25ca818e3259219",
+    "content_sha256": "a19f0bda46f4adca5737365dbc3c7ed93e9d93b71349536d92ff055dcf4e3b83",
+    "path": "roles/security-appsec-engineer.md"
+  },
+  {
+    "corpus_id": "engineering-devops-automator",
+    "codex_slug": "devops-automator",
+    "name": "DevOps Automator",
+    "description": "Expert DevOps engineer specializing in infrastructure automation, CI/CD pipeline development, and cloud operations",
+    "source_path": "engineering/engineering-devops-automator.md",
+    "source_commit": "b37b5bb33b78f2c1d6567d98e25ca818e3259219",
+    "content_sha256": "1b67b3bdc6a076d42281e38bb811250eb04415bb241cdd4c3a7df38ecd20e88b",
+    "path": "roles/engineering-devops-automator.md"
+  },
+  {
+    "corpus_id": "engineering-sre",
+    "codex_slug": "sre-site-reliability-engineer",
+    "name": "SRE (Site Reliability Engineer)",
+    "description": "Expert site reliability engineer specializing in SLOs, error budgets, observability, chaos engineering, and toil reduction for production systems at scale.",
+    "source_path": "engineering/engineering-sre.md",
+    "source_commit": "b37b5bb33b78f2c1d6567d98e25ca818e3259219",
+    "content_sha256": "85b305e495506913f50c7cb28de42444a85fbc4898cd3ad4e1dc9b358b4ab5e8",
+    "path": "roles/engineering-sre.md"
+  },
+  {
+    "corpus_id": "engineering-technical-writer",
+    "codex_slug": "technical-writer",
+    "name": "Technical Writer",
+    "description": "Expert technical writer specializing in developer documentation, API references, README files, and tutorials. Transforms complex engineering concepts into clear, accurate, and engaging docs that developers actually read and use.",
+    "source_path": "engineering/engineering-technical-writer.md",
+    "source_commit": "b37b5bb33b78f2c1d6567d98e25ca818e3259219",
+    "content_sha256": "bf5c809977e10904b988ab8b218853ce8dfa38b2cbd89a7d2cfadba44ac25761",
+    "path": "roles/engineering-technical-writer.md"
+  }
+]

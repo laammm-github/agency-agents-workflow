@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "project_id": "REQUIRED",
+  "workspace": "REQUIRED",
+  "target_identity": "REQUIRED",
+  "authorization_ref": "REQUIRED",
+  "allowed_paths": [],
+  "goal": "REQUIRED",
+  "capabilities": [],
+  "milestone": "REQUIRED",
+  "baseline": "REQUIRED",
+  "artifact_directory": "REQUIRED",
+  "revision": 0,
+  "updated_at": "REQUIRED"
+}

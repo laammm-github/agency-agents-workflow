@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "stage_id": "REQUIRED",
+  "requirement_ids": [],
+  "acceptance_ids": [],
+  "producer_role": "REQUIRED",
+  "consumer_role": "REQUIRED",
+  "artifact_refs": [],
+  "evidence_refs": [],
+  "open_questions": [],
+  "next_preconditions": [],
+  "authorization_ref": "REQUIRED",
+  "risks": [],
+  "project_id": "REQUIRED",
+  "revision": 0,
+  "updated_at": "REQUIRED"
+}

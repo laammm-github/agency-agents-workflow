@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "defect_id",
+    "status",
+    "blocking",
+    "reproduction",
+    "expected",
+    "actual",
+    "owner_role",
+    "fix_task_id",
+    "regression_evidence",
+    "severity",
+    "candidate",
+    "evidence_refs",
+    "project_id",
+    "revision",
+    "updated_at"
+  ],
+  "properties": {
+    "defect_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "minLength": 1,
+      "enum": [
+        "OPEN",
+        "FIXING",
+        "AWAITING_RETEST",
+        "CLOSED",
+        "REOPENED"
+      ]
+    },
+    "blocking": {
+      "type": "boolean"
+    },
+    "reproduction": {
+      "type": "string",
+      "minLength": 1
+    },
+    "expected": {
+      "type": "string",
+      "minLength": 1
+    },
+    "actual": {
+      "type": "string",
+      "minLength": 1
+    },
+    "owner_role": {
+      "type": "string",
+      "minLength": 1
+    },
+    "fix_task_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "regression_evidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "schema_version": {
+      "const": 1
+    },
+    "severity": {
+      "type": "string",
+      "minLength": 1
+    },
+    "candidate": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidence_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "project_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "revision": {
+      "type": "integer"
+    },
+    "updated_at": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": false
+}

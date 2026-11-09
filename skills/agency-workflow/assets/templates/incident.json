@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "incident_id": "REQUIRED",
+  "environment": "REQUIRED",
+  "symptoms": "REQUIRED",
+  "telemetry": [],
+  "recovery_evidence": [],
+  "prevention_tasks": [],
+  "timeline": [],
+  "diagnosis": "REQUIRED",
+  "authorization_ref": "REQUIRED",
+  "unknowns": [],
+  "project_id": "REQUIRED",
+  "revision": 0,
+  "updated_at": "REQUIRED"
+}

@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "incident_id",
+    "environment",
+    "symptoms",
+    "telemetry",
+    "recovery_evidence",
+    "prevention_tasks",
+    "timeline",
+    "diagnosis",
+    "authorization_ref",
+    "unknowns",
+    "project_id",
+    "revision",
+    "updated_at"
+  ],
+  "properties": {
+    "incident_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "environment": {
+      "type": "string",
+      "minLength": 1
+    },
+    "symptoms": {
+      "type": "string",
+      "minLength": 1
+    },
+    "telemetry": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "recovery_evidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "prevention_tasks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "schema_version": {
+      "const": 1
+    },
+    "timeline": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "diagnosis": {
+      "type": "string",
+      "minLength": 1
+    },
+    "authorization_ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "unknowns": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "project_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "revision": {
+      "type": "integer"
+    },
+    "updated_at": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": false
+}

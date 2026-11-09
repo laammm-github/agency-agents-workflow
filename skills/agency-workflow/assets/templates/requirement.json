@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "requirement_id": "REQUIRED",
+  "version": 1,
+  "description": "REQUIRED",
+  "acceptance_ids": [],
+  "open_questions": [],
+  "source": "REQUIRED",
+  "non_goals": [],
+  "priority": "REQUIRED",
+  "confirmation_ref": "REQUIRED",
+  "project_id": "REQUIRED",
+  "revision": 0,
+  "updated_at": "REQUIRED"
+}

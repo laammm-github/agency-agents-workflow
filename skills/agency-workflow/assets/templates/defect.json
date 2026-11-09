@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "defect_id": "REQUIRED",
+  "status": "REQUIRED",
+  "blocking": false,
+  "reproduction": "REQUIRED",
+  "expected": "REQUIRED",
+  "actual": "REQUIRED",
+  "owner_role": "REQUIRED",
+  "fix_task_id": "REQUIRED",
+  "regression_evidence": [],
+  "severity": "REQUIRED",
+  "candidate": "REQUIRED",
+  "evidence_refs": [],
+  "project_id": "REQUIRED",
+  "revision": 0,
+  "updated_at": "REQUIRED"
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "artifact_id": "REQUIRED",
+  "path": "REQUIRED",
+  "sha256": "REQUIRED",
+  "requirement_ids": [],
+  "task_ids": [],
+  "version": "REQUIRED",
+  "producer": "REQUIRED",
+  "supersedes": null,
+  "project_id": "REQUIRED",
+  "revision": 0,
+  "updated_at": "REQUIRED"
+}

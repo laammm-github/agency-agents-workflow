@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "laammm@163.com",
+    "name": "Laammm"
+  },
+  "description": "Evidence-based software team workflows using authorized host tools.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "developerName": "Laammm",
+        "displayName": "Agency Agents Workflow",
+        "shortDescription": "Evidence-based team workflows"
+      }
+    }
+  },
+  "name": "agency-agents-workflow",
+  "version": "0.2.10"
+}

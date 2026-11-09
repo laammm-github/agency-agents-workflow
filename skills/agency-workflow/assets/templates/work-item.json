@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "task_id": "REQUIRED",
+  "requirement_ids": [],
+  "owner_role": "REQUIRED",
+  "dependencies": [],
+  "acceptance_ids": [],
+  "artifact_refs": [],
+  "evidence_refs": [],
+  "status": "REQUIRED",
+  "deliverables": [],
+  "blocker_refs": [],
+  "passed_acceptance_ids": [],
+  "project_id": "REQUIRED",
+  "revision": 0,
+  "updated_at": "REQUIRED"
+}

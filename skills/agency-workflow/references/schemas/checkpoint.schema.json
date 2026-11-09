@@ -1,0 +1,112 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "project_id",
+    "workspace",
+    "revision",
+    "expected_hashes",
+    "pending_operations",
+    "authorization_ref",
+    "milestone",
+    "tasks",
+    "artifacts",
+    "last_confirmed_action",
+    "next_preconditions",
+    "evidence_refs",
+    "updated_at",
+    "state"
+  ],
+  "properties": {
+    "project_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "workspace": {
+      "type": "string",
+      "minLength": 1
+    },
+    "revision": {
+      "type": "integer"
+    },
+    "expected_hashes": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "pattern": "^[0-9a-f]{64}$"
+      }
+    },
+    "pending_operations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "authorization_ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schema_version": {
+      "const": 1
+    },
+    "milestone": {
+      "type": "string",
+      "minLength": 1
+    },
+    "tasks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "artifacts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "last_confirmed_action": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "next_preconditions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "updated_at": {
+      "type": "string",
+      "minLength": 1
+    },
+    "state": {
+      "type": "object",
+      "required": [
+        "schema_version",
+        "project_id",
+        "workspace",
+        "revision",
+        "requirements",
+        "tasks",
+        "artifacts",
+        "evidence",
+        "defects",
+        "decisions",
+        "releases",
+        "incidents",
+        "handoffs",
+        "pending_operations"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

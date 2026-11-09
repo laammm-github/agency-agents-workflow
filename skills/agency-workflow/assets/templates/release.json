@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "release_id": "REQUIRED",
+  "candidate": "REQUIRED",
+  "artifact_sha256": "REQUIRED",
+  "environment": "REQUIRED",
+  "authorization_ref": "REQUIRED",
+  "gate_evidence": [],
+  "deployment_evidence": [],
+  "rollback_evidence": [],
+  "gate_matrix": {},
+  "open_defects": [],
+  "result": "REQUIRED",
+  "project_id": "REQUIRED",
+  "revision": 0,
+  "updated_at": "REQUIRED"
+}

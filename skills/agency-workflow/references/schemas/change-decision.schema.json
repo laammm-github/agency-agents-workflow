@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "decision_id",
+    "requirement_id",
+    "previous",
+    "reason",
+    "affected_tasks",
+    "authorization_ref",
+    "new_version",
+    "affected_artifacts",
+    "affected_tests",
+    "gates_to_revalidate",
+    "project_id",
+    "revision",
+    "updated_at"
+  ],
+  "properties": {
+    "decision_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "requirement_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "previous": {
+      "type": "object"
+    },
+    "reason": {
+      "type": "string",
+      "minLength": 1
+    },
+    "affected_tasks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "authorization_ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schema_version": {
+      "const": 1
+    },
+    "new_version": {
+      "type": "integer"
+    },
+    "affected_artifacts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "affected_tests": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "gates_to_revalidate": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "project_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "revision": {
+      "type": "integer"
+    },
+    "updated_at": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "release_id",
+    "candidate",
+    "artifact_sha256",
+    "environment",
+    "authorization_ref",
+    "gate_evidence",
+    "deployment_evidence",
+    "rollback_evidence",
+    "gate_matrix",
+    "open_defects",
+    "result",
+    "project_id",
+    "revision",
+    "updated_at"
+  ],
+  "properties": {
+    "release_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "candidate": {
+      "type": "string",
+      "minLength": 1
+    },
+    "artifact_sha256": {
+      "type": "string",
+      "minLength": 1
+    },
+    "environment": {
+      "type": "string",
+      "minLength": 1
+    },
+    "authorization_ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "gate_evidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "deployment_evidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "rollback_evidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "schema_version": {
+      "const": 1
+    },
+    "gate_matrix": {
+      "type": "object"
+    },
+    "open_defects": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "result": {
+      "type": "string",
+      "minLength": 1
+    },
+    "project_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "revision": {
+      "type": "integer"
+    },
+    "updated_at": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": false
+}

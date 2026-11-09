@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "project_id": "REQUIRED",
+  "workspace": "REQUIRED",
+  "revision": 0,
+  "expected_hashes": {},
+  "pending_operations": [],
+  "authorization_ref": "REQUIRED",
+  "milestone": "REQUIRED",
+  "tasks": [],
+  "artifacts": [],
+  "last_confirmed_action": null,
+  "next_preconditions": [],
+  "evidence_refs": [],
+  "updated_at": "REQUIRED",
+  "state": {
+    "schema_version": 1,
+    "revision": 0,
+    "project_id": "REQUIRED",
+    "workspace": "REQUIRED",
+    "requirements": [],
+    "tasks": [],
+    "artifacts": [],
+    "evidence": [],
+    "defects": [],
+    "decisions": [],
+    "releases": [],
+    "incidents": [],
+    "handoffs": [],
+    "pending_operations": []
+  }
+}

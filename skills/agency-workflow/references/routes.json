@@ -1,0 +1,126 @@
+[
+  {
+    "team_id": "TEAM-01",
+    "workflow": "onboarding",
+    "roles": [
+      "agents-orchestrator",
+      "engineering-codebase-onboarding-engineer"
+    ],
+    "path": "workflows/onboarding.md"
+  },
+  {
+    "team_id": "TEAM-02",
+    "workflow": "discovery",
+    "roles": [
+      "agents-orchestrator",
+      "product-manager"
+    ],
+    "path": "workflows/discovery.md"
+  },
+  {
+    "team_id": "TEAM-03",
+    "workflow": "coordination",
+    "roles": [
+      "agents-orchestrator",
+      "project-manager-senior"
+    ],
+    "path": "workflows/coordination.md"
+  },
+  {
+    "team_id": "TEAM-04",
+    "workflow": "design",
+    "roles": [
+      "design-ux-researcher",
+      "design-ui-designer"
+    ],
+    "path": "workflows/design.md"
+  },
+  {
+    "team_id": "TEAM-05",
+    "workflow": "architecture",
+    "roles": [
+      "engineering-software-architect",
+      "engineering-backend-architect"
+    ],
+    "path": "workflows/architecture.md"
+  },
+  {
+    "team_id": "TEAM-06",
+    "workflow": "implementation",
+    "roles": [
+      "engineering-backend-architect",
+      "engineering-frontend-developer",
+      "engineering-database-optimizer"
+    ],
+    "path": "workflows/implementation.md"
+  },
+  {
+    "team_id": "TEAM-07",
+    "workflow": "quality",
+    "roles": [
+      "testing-test-automation-engineer",
+      "testing-api-tester"
+    ],
+    "path": "workflows/quality.md"
+  },
+  {
+    "team_id": "TEAM-08",
+    "workflow": "security",
+    "roles": [
+      "engineering-code-reviewer",
+      "security-appsec-engineer"
+    ],
+    "path": "workflows/security.md"
+  },
+  {
+    "team_id": "TEAM-09",
+    "workflow": "acceptance",
+    "roles": [
+      "testing-reality-checker"
+    ],
+    "path": "workflows/acceptance.md"
+  },
+  {
+    "team_id": "TEAM-10",
+    "workflow": "release",
+    "roles": [
+      "engineering-devops-automator"
+    ],
+    "path": "workflows/release.md"
+  },
+  {
+    "team_id": "TEAM-11",
+    "workflow": "incident",
+    "roles": [
+      "engineering-sre"
+    ],
+    "path": "workflows/incident.md"
+  },
+  {
+    "team_id": "TEAM-12",
+    "workflow": "handover",
+    "roles": [
+      "engineering-technical-writer",
+      "product-manager"
+    ],
+    "path": "workflows/handover.md"
+  },
+  {
+    "team_id": "TEAM-13",
+    "workflow": "change",
+    "roles": [
+      "agents-orchestrator",
+      "project-manager-senior"
+    ],
+    "path": "workflows/change.md"
+  },
+  {
+    "team_id": "TEAM-14",
+    "workflow": "resume",
+    "roles": [
+      "agents-orchestrator",
+      "engineering-codebase-onboarding-engineer"
+    ],
+    "path": "workflows/resume.md"
+  }
+]
